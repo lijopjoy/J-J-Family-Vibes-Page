@@ -1,0 +1,159 @@
+*{
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: goldenrod;
+}
+ul{
+    margin: 10;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    max-width: 2000px;
+    max-height: 200px;
+
+  
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+
+}
+header .navbar{
+    display: flex;
+    flex-flow: row wrap;
+   
+    
+}
+header .navbar a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 10px 10px;
+    font-size: 22px;
+}
+.hero-section img{
+    margin-left: 500px;
+    margin-right: px;
+}
+
+.hero-section .hero-section-content .hero{
+position: relative;
+        padding: 10px;
+        padding-top: 10px;
+        display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-bottom: -30px;
+    }
+
+.hero-section .hero-section-content{
+    position: absolute;
+    top: -190px;
+    bottom: -371px;
+    max-width: 350px;
+    margin-top: 300px;
+    margin-left: 120px;
+    background-color: lightgoldenrodyellow;
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.gallery-section{
+    margin: 30px;
+}
+.gallery-section h1{
+    margin-bottom: 30px;
+}
+.gallery-section .gallery-list{
+display: flex;
+gap:30px;
+flex-wrap:wrap;
+}
+.gallery-section .gallery-list li{
+    flex: 1 1 200px;
+    margin:20px;
+}
+.gallery-section .gallery-list li img{
+    width: 100%;
+
+}
+
+div .youtube-section{
+    margin: 50px;
+    
+}
+div .youtube-section h1{
+    margin-bottom: 30px;
+}
+div .youtube-section .youtube-list{
+display: flex;
+gap:30px;
+flex-wrap:wrap;
+}
+div .youtube-section .youtube-list section{
+    flex: 1 1 200px;
+    margin:0px;
+}
+div .youtube-section .youtube-list iframe{
+    width: 250px;
+
+}
+
+div.instagram-section{
+    margin: 100px 150px;
+}
+div.instagram-section h1{
+    margin-bottom: 10px;
+}
+div.instagram-section .instagram-list{
+display: flex;
+gap:10px;
+flex-wrap:wrap;
+}
+div.instagram-section .instagram-list section{
+    flex: 1 1 200px;
+    margin:10px;
+}
+div.instagram-section .instagram-list blockquote{
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+div.facebook-section{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+div.facebook-section h1{
+    margin-bottom: 30px;
+}
+div.facebook-section .facebook-list{
+display: flex;
+gap:50px;
+flex-wrap:wrap;
+}
+div.facebook-section .facebook-list section{
+    flex: 1 1 300px;
+    margin:10px;
+}
+div.facebook-section .facebook-list iframe{
+width: 600px;
+    
+}
+footer {
+    display: block;
+}
+a[data-fancybox] img {
+    cursor: zoom-in;
+  }
